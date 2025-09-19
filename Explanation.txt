@@ -1,0 +1,29 @@
+1.Install Python 3.8 or newer on your system.
+Verify by running python --version in the terminal.
+
+2.Create a project folder for your Snake Game.
+Place your script, background.png, 123.mp3, and GameOver.mp3 inside it.
+
+3.Open the terminal or command prompt in that folder.
+This ensures Python can access all required files.
+
+4.Create a virtual environment using python -m venv venv.
+Activate it with venv\Scripts\activate (Windows) or source venv/bin/activate (Linux/Mac).
+
+5.Install pygame by running pip install pygame.
+This installs the library needed to run your game.
+
+6.Run the game with python snake_game.py.
+The welcome screen should appear once it loads.
+
+7.Press any key on the welcome screen to start.
+Use arrow keys to move the orange snake.
+
+8.Eat the apples to grow and increase your score.
+Avoid hitting walls or colliding with yourself.
+
+9.When the game ends, a Game Over screen appears.
+Press R to restart or Q to quit the game.
+
+10.Adjust FPS, colors, or images in code for customization.
+Save changes and rerun to see the updated effects.
